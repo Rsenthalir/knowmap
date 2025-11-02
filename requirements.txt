@@ -1,0 +1,17 @@
+Flask==3.0.3
+Flask-Cors==4.0.0
+Flask-SQLAlchemy==3.1.1
+Werkzeug==3.0.4
+PyJWT==2.9.0
+pandas==2.2.3
+numpy==1.26.4
+torch==2.3.0
+transformers==4.45.2
+sentence-transformers==3.0.1
+spacy==3.7.2
+thinc==8.2.2
+networkx==3.2.1
+scikit-learn==1.5.2
+nltk==3.9.1
+gunicorn==23.0.0
+

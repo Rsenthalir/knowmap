@@ -1,0 +1,15 @@
+FROM python:3.10-slim
+
+WORKDIR /app
+
+COPY app.py requirements.txt ./
+
+RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
+
+RUN mkdir -p /app/uploads && chmod -R 777 /app
+
+EXPOSE 5010
+CMD ["python", "app.py"]
+
+

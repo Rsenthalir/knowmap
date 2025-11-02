@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Environments
+env/
+venv/
+.venv/
+
+# Docker
+*.pid
+*.log
+
+# Data
+uploads/
+feedback.csv
+
+# OS junk
+.DS_Store
+Thumbs.db
